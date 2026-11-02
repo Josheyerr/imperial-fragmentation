@@ -5,10 +5,7 @@ UPLOAD_DIR = Path(r"C:\ck3_workshop_upload")
 CONTENT = Path(
     r"C:\Users\kmkjk\OneDrive\Documents\Paradox Interactive\Crusader Kings III\mod\imperial_fragmentation"
 )
-CHANGENOTE = (
-    "Initial release. Conquest strain, factions, peasants, enclaves, tributaries, "
-    "weak armies, child rulers, and Hard-Won Peace after beating back multiple defensive wars."
-)
+CHANGENOTE = "Added the mod title to the Workshop icon."
 
 
 def esc(value: str) -> str:
