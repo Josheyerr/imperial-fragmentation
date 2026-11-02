@@ -1,0 +1,52 @@
+[img]https://raw.githubusercontent.com/Josheyerr/imperial-fragmentation/main/images/banner.jpg[/img]
+
+[b]Building an empire is difficult. Keeping it is harder.[/b] Conquest, diversity, defeat, and a weak army all pull a realm apart. Collapse is normal. So is the quiet that follows if you beat every war that was declared against you.
+
+[url=https://discord.gg/rwdGCanWpA][img]https://raw.githubusercontent.com/Josheyerr/imperial-fragmentation/main/images/discord.png[/img][/url]
+
+[img]https://raw.githubusercontent.com/Josheyerr/imperial-fragmentation/main/images/header_overview.png[/img]
+
+Imperial Fragmentation is a gameplay mod for Crusader Kings III [b]1.20[/b]. It does not replace vanilla faction files. It adds strain, unrest, and a way back to peace. The AI is affected the same way you are.
+
+The pace is the [b]Imperial Fragmentation[/b] game rule: Lenient, Standard, Severe, or Collapse.
+
+[img]https://raw.githubusercontent.com/Josheyerr/imperial-fragmentation/main/images/header_features.png[/img]
+
+[img]https://raw.githubusercontent.com/Josheyerr/imperial-fragmentation/main/images/icon_realm.png[/img] [b]Conquest Strain[/b]: A conquered county is Unpacified. Popular opinion and control fall. Taking land quickly adds expansion heat. Four recent counties is Rapid Expansion. Eight is Reckless Expansion. Size, foreign culture, hostile faith, and that heat become Stretched, Overextended, Cracking, or Realm Collapse.
+
+[img]https://raw.githubusercontent.com/Josheyerr/imperial-fragmentation/main/images/icon_vassals.png[/img] [b]Factions[/b]: Discontented vassals are pushed into independence or liberty factions, and they are kept from quitting the next day. Giving in, or losing the faction war, hurts more than losing a foreign war.
+
+[img]https://raw.githubusercontent.com/Josheyerr/imperial-fragmentation/main/images/icon_peasants.png[/img] [b]Peasants[/b]: While Realm Collapse is active, counties are pushed into peasant factions that are ready to demand.
+
+[img]https://raw.githubusercontent.com/Josheyerr/imperial-fragmentation/main/images/icon_child.png[/img] [b]Child Rulers[/b]: A child who inherits a duchy or higher gets Child on the Throne. Inheriting a collapse is worse.
+
+[img]https://raw.githubusercontent.com/Josheyerr/imperial-fragmentation/main/images/icon_enclave.png[/img] [b]Enclaves[/b]: Land you cannot reach from the capital without crossing foreign territory, and that sits far from the capital, resists. Vassals there hate you. Counties you hold there yourself revolt faster.
+
+[img]https://raw.githubusercontent.com/Josheyerr/imperial-fragmentation/main/images/icon_tribute.png[/img] [b]Tributaries[/b]: A strained, distant, or humiliated suzerainty makes tributaries restive. They can stop paying or fight a tributary independence war. Obedient tributaries do not break the contract.
+
+[img]https://raw.githubusercontent.com/Josheyerr/imperial-fragmentation/main/images/icon_armies.png[/img] [b]Weak Armies[/b]: If one vassal outmuscles the liege, or several vassals each field half the liege's strength, the bold and ambitious rebel. Content, craven, humble, and honorable characters stay loyal unless their own army is overwhelming.
+
+[img]https://raw.githubusercontent.com/Josheyerr/imperial-fragmentation/main/images/header_breaks.png[/img]
+
+[list]
+[*][b]Lost war[/b]: prestige, legitimacy, control, and the Defeated in War modifier.
+[*][b]Lost faction war, or accepting demands[/b]: harsher than a foreign defeat. During Realm Collapse it is harsher again.
+[*][b]Over domain limit or too many duchies[/b]: extra strain, opinion loss, and faster schemes. Dukes are not punished for duchy count.
+[*][b]Personality[/b]: ambitious, brave, wrathful, vengeful, arrogant, fickle, greedy, and similar characters rebel. Content, craven, humble, forgiving, and highly honorable characters usually do not.
+[/list]
+
+[img]https://raw.githubusercontent.com/Josheyerr/imperial-fragmentation/main/images/header_peace.png[/img]
+
+[img]https://raw.githubusercontent.com/Josheyerr/imperial-fragmentation/main/images/icon_peace.png[/img] [b]Hard-Won Peace[/b]: Be the defender in at least two wars at the same time and win the last of them. For ten years the mod stops new factions, peasant risings, neighbor attacks, enclave revolts, and tributary breakaways. Strain falls, and one conquered county is integrated each year. Losing another war ends the peace.
+
+[b]Integrate a Conquered Province[/b] spends gold and prestige on one unpacified county that already has at least 35 control. You cannot be at war.
+
+[img]https://raw.githubusercontent.com/Josheyerr/imperial-fragmentation/main/images/header_compat.png[/img]
+
+[list]
+[*]Supported version: [b]1.20.*[/b]
+[*]Does not overwrite vanilla faction files.
+[*]Works beside other gameplay mods. Load order still matters if another mod changes the same on-actions.
+[*]Start or continue a game after enabling it. New effects begin from the next birthday, war, death, or conquest.
+[*]Bug reports: [url=https://discord.gg/rwdGCanWpA]Discord[/url].
+[/list]
