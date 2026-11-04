@@ -5,7 +5,7 @@ UPLOAD_DIR = Path(r"C:\ck3_workshop_upload")
 CONTENT = Path(
     r"C:\Users\kmkjk\OneDrive\Documents\Paradox Interactive\Crusader Kings III\mod\imperial_fragmentation"
 )
-CHANGENOTE = "Added the mod title to the Workshop icon."
+CHANGENOTE = "The distant-lands warning is now a message, and land a short sail from an island capital is no longer treated as a remote enclave."
 
 
 def esc(value: str) -> str:

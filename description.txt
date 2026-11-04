@@ -20,7 +20,7 @@ The pace is the [b]Imperial Fragmentation[/b] game rule: Lenient, Standard, Seve
 
 [img]https://raw.githubusercontent.com/Josheyerr/imperial-fragmentation/main/images/icon_child.png[/img] [b]Child Rulers[/b]: A child who inherits a duchy or higher gets Child on the Throne. Inheriting a collapse is worse.
 
-[img]https://raw.githubusercontent.com/Josheyerr/imperial-fragmentation/main/images/icon_enclave.png[/img] [b]Enclaves[/b]: Land you cannot reach from the capital without crossing foreign territory, and that sits far from the capital, resists. Vassals there hate you. Counties you hold there yourself revolt faster.
+[img]https://raw.githubusercontent.com/Josheyerr/imperial-fragmentation/main/images/icon_enclave.png[/img] [b]Enclaves[/b]: Land you cannot reach from the capital without crossing foreign territory, and that sits far from the capital, resists. A short sea crossing from your own coast does not count. Vassals there hate you. Counties you hold there yourself revolt faster. The warning is a message, not a popup.
 
 [img]https://raw.githubusercontent.com/Josheyerr/imperial-fragmentation/main/images/icon_tribute.png[/img] [b]Tributaries[/b]: A strained, distant, or humiliated suzerainty makes tributaries restive. They can stop paying or fight a tributary independence war. Obedient tributaries do not break the contract.
 
