@@ -6,17 +6,21 @@
 
 [img]https://raw.githubusercontent.com/Josheyerr/imperial-fragmentation/main/images/header_overview.png[/img]
 
-Imperial Fragmentation is a gameplay mod for Crusader Kings III [b]1.20[/b]. It does not replace vanilla faction files. It adds strain, unrest, and a way back to peace. The AI is affected the same way you are.
+Imperial Fragmentation is a gameplay mod for Crusader Kings III [b]1.21[/b]. It does not replace vanilla faction, corruption, or trade files. It adds strain, unrest, and a way back to peace. It is built on the 1.21 county control baseline and the Silk and Silver economy: prosperity, trade markets, and county corruption.
 
-The pace is the [b]Imperial Fragmentation[/b] game rule: Lenient, Standard, Severe, or Collapse.
+The pace is the [b]Imperial Fragmentation[/b] game rule: Lenient, Standard, Severe, or Collapse. The [b]Fragmentation Affects AI[/b] rule decides whether AI realms suffer the same way you do. Players Only spares them, but AI neighbors still prey on an overstretched player.
 
 [img]https://raw.githubusercontent.com/Josheyerr/imperial-fragmentation/main/images/header_features.png[/img]
 
-[img]https://raw.githubusercontent.com/Josheyerr/imperial-fragmentation/main/images/icon_realm.png[/img] [b]Conquest Strain[/b]: A conquered county is Unpacified. Popular opinion and control fall. Taking land quickly adds expansion heat. Four recent counties is Rapid Expansion. Eight is Reckless Expansion. Size, foreign culture, hostile faith, and that heat become Stretched, Overextended, Cracking, or Realm Collapse.
+[img]https://raw.githubusercontent.com/Josheyerr/imperial-fragmentation/main/images/icon_realm.png[/img] [b]Conquest Strain[/b]: A conquered county is Unpacified. Popular opinion falls and its control baseline drops, so control stays low until the land is integrated. Taking land quickly adds expansion heat. Four recent counties is Rapid Expansion. Eight is Reckless Expansion. Size, foreign culture, hostile faith, corruption, and that heat become Stretched, Overextended, Cracking, or Realm Collapse.
+
+[img]https://raw.githubusercontent.com/Josheyerr/imperial-fragmentation/main/images/icon_tribute.png[/img] [b]Looted Land[/b]: Conquest costs the county prosperity, and its trade market loses traders for five years: goods cost more and sell for less. Low-control conquests catch county corruption. A cracking realm loses prosperity every year, a collapsing one three times as fast.
+
+[img]https://raw.githubusercontent.com/Josheyerr/imperial-fragmentation/main/images/icon_armies.png[/img] [b]Dispossessed Lords[/b]: The lord who lost a county keeps a pressed claim on it and a grudge that lasts twenty years. While your realm is exposed, an independent dispossessed lord may raise an army to take it back.
 
 [img]https://raw.githubusercontent.com/Josheyerr/imperial-fragmentation/main/images/icon_vassals.png[/img] [b]Factions[/b]: Discontented vassals are pushed into independence or liberty factions, and they are kept from quitting the next day. Giving in, or losing the faction war, hurts more than losing a foreign war.
 
-[img]https://raw.githubusercontent.com/Josheyerr/imperial-fragmentation/main/images/icon_peasants.png[/img] [b]Peasants[/b]: While Realm Collapse is active, counties are pushed into peasant factions that are ready to demand.
+[img]https://raw.githubusercontent.com/Josheyerr/imperial-fragmentation/main/images/icon_peasants.png[/img] [b]Peasants[/b]: While Realm Collapse is active, counties are pushed into peasant factions that are ready to demand. Fresh conquests you hold yourself flare up in [i]Unrest in the Provinces[/i]: pay for garrisons, grant concessions, hang the ringleaders, or let them shout and risk a rising.
 
 [img]https://raw.githubusercontent.com/Josheyerr/imperial-fragmentation/main/images/icon_child.png[/img] [b]Child Rulers[/b]: A child who inherits a duchy or higher gets Child on the Throne. Inheriting a collapse is worse.
 
@@ -32,6 +36,9 @@ The pace is the [b]Imperial Fragmentation[/b] game rule: Lenient, Standard, Seve
 [*][b]Lost war[/b]: prestige, legitimacy, control, and the Defeated in War modifier.
 [*][b]Lost faction war, or accepting demands[/b]: harsher than a foreign defeat. During Realm Collapse it is harsher again.
 [*][b]Over domain limit or too many duchies[/b]: extra strain, opinion loss, and faster schemes. Dukes are not punished for duchy count.
+[*][b]Cracking and Collapse[/b]: the control baseline falls across your whole domain, and control recovers more slowly.
+[*][b]The ruler[/b]: stewardship above 12 lowers strain and below 12 raises it. Diligent, Administrator, and Just help. Lazy and Arbitrary hurt.
+[*][b]The government[/b]: administrative realms take 15% less strain. Tribal and nomadic realms take 15% more.
 [*][b]Personality[/b]: ambitious, brave, wrathful, vengeful, arrogant, fickle, greedy, and similar characters rebel. Content, craven, humble, forgiving, and highly honorable characters usually do not.
 [/list]
 
@@ -39,13 +46,17 @@ The pace is the [b]Imperial Fragmentation[/b] game rule: Lenient, Standard, Seve
 
 [img]https://raw.githubusercontent.com/Josheyerr/imperial-fragmentation/main/images/icon_peace.png[/img] [b]Hard-Won Peace[/b]: Be the defender in at least two wars at the same time and win the last of them. For ten years the mod stops new factions, peasant risings, neighbor attacks, enclave revolts, and tributary breakaways. Strain falls, and one conquered county is integrated each year. Losing another war ends the peace.
 
-[b]Integrate a Conquered Province[/b] spends gold and prestige on one unpacified county that already has at least 35 control. You cannot be at war.
+[list]
+[*][b]Integrate a Conquered Province[/b]: spend gold and prestige on one unpacified county that already has at least 25 control. You cannot be at war.
+[*][b]Harsh Pacification[/b]: quarter soldiers in every conquest you hold yourself. Control jumps and integration becomes possible, but popular opinion and prosperity suffer, and you gain dread and tyranny.
+[*][b]Consolidate the Realm[/b]: swear off conquest. Heat and defeat burden fall, and strain is cut by 30% for ten years. Take a single county in that time and the promise breaks.
+[/list]
 
 [img]https://raw.githubusercontent.com/Josheyerr/imperial-fragmentation/main/images/header_compat.png[/img]
 
 [list]
-[*]Supported version: [b]1.20.*[/b]
-[*]Does not overwrite vanilla faction files.
+[*]Supported version: [b]1.21.*[/b]
+[*]Does not overwrite vanilla faction, corruption, or trade files.
 [*]Works beside other gameplay mods. Load order still matters if another mod changes the same on-actions.
 [*]Start or continue a game after enabling it. New effects begin from the next birthday, war, death, or conquest.
 [*]Bug reports: [url=https://discord.gg/rwdGCanWpA]Discord[/url].
